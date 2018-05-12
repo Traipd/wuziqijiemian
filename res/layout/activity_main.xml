@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+   <ImageView 
+       android:src="@drawable/startmessage"
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/qipan"
+      android:layout_weight="0.2"
+       /> 
+
+  <LinearLayout 
+      android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_weight="0.5"
+    android:orientation="vertical"> 
+     <Button 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/xinqiju"
+       android:layout_weight="0.5"
+       android:text="新棋局"
+      android:paddingTop="0dp"
+       android:paddingBottom="0dp"
+       />
+       <Button 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/huiqi"
+       android:layout_weight="0.5"
+       android:text="悔棋"
+       android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+       />
+        <Button 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/duizhan"
+       android:layout_weight="0.5"
+       android:text="人机对战/人人对战"
+       android:paddingTop="0dp"
+       android:paddingBottom="0dp"
+      />
+     
+     
+     </LinearLayout> 
+</LinearLayout>
